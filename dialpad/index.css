@@ -1,0 +1,33 @@
+html {
+    height: 100vh;
+    background: white;
+    display: flex;
+  }
+  body {
+    margin: auto;
+  }
+  .pin-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    direction: rtl;
+  }
+    .gradient-circle {
+      color: white;
+      background-color:#144a9a;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2em;
+      height: 2em;
+      font-size: 1rem;
+      position: relative;
+      padding: 1rem;
+      box-sizing: border-box;
+      
+    }
+    .last {
+      grid-column-start: 2;
+    }
+  
